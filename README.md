@@ -83,7 +83,7 @@ Here is the [tutorial for animal keypoints (dogs, cats, sheep, horses and cows)]
 ![example image cars](https://raw.githubusercontent.com/openpifpaf/openpifpaf/main/docs/tappo_loomo.jpg.predictions.jpeg)
 
 ```sh
-python -m openpifpaf.predict guide/images tappo_loomo.jpg \
+python -m openpifpaf.predict guide/images/tappo_loomo.jpg \
   --checkpoint=shufflenetv2k30-animalpose \
   --line-width=6 --font-size=6 --white-overlay=0.3 \
   --long-edge=500
